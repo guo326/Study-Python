@@ -102,3 +102,36 @@ while L < 100:
 print(l)
 del l[:25]
 print(l)
+
+m = [a, b, c, d, e]
+print(m)
+m.insert(5, f)
+print(m)
+
+n = ["a", "e", "b", "a", "c", "d", "e"]
+print(n)
+n.sort()
+print(n)
+n.remove("e")
+print(n)
+
+o = {1: a, 2: b, 3: c, 4: d, 5: e}
+print(o.keys())
+print(list(o.keys()))
+print(o.values())
+print(list(o.values()))
+print(o.items())
+print(list(o.items()))
+for k in o.keys():
+    print(k)
+for p in o.values():
+    print(p)
+for q in o.items():
+    print(q)
+
+r = set([1, 2, 3])
+print(r)
+print(set([a, b, c, d, e]))
+print(set(c))
+s = list(set(c))
+print(s)

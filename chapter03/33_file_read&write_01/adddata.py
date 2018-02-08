@@ -1,7 +1,0 @@
-# adddata.py
-
-f = open("C:/Python/exercise/chapter03/33_file_read&write_01/new.txt", 'a')
-for i in range(11, 20):
-    data = "%d번째 줄입니다\n" % i
-    f.write(data)
-f.close()
